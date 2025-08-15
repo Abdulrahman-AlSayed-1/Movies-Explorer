@@ -1,17 +1,20 @@
 
 # MovieSpace
- Movies Explorer – A website where users can discover movies, view overviews, ratings, cost, and release dates across various titles, and add their favorites.
+ Movies Explorer – A website where users can discover movies, view overviews, ratings, cost, release dates across various titles, and add their favorites.
 
 ##### Tools and Libraries used in this project:
 
+<small>
 1. React.js  
 2. Tailwind CSS  
 3. React Router v6  
-4. Redux Toolkit
-5. React-Query
-6. embla-carousel-react
-7. Formik
+4. Redux Toolkit  
+5. React-Query  
+6. embla-carousel-react  
+7. Formik  
 8. react-fontawesome
+</small>
+
 
 ### Acknowledgments
 Movie information in this application is powered by [TMDb API](https://www.themoviedb.org/documentation/api). All movie data, images, and ratings are © TMDb.

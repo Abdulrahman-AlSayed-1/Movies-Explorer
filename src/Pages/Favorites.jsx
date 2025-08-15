@@ -1,27 +1,16 @@
-import { useNavigate } from "react-router";
 import {  MovieCard, Navbar } from "../Components";
 import { useSelector } from "react-redux";
-import { useEffect } from "react";
 export default function Favorites() {
   const favorites = useSelector((state) => state.favorites);
-  const navigate = useNavigate()
-  useEffect(()=>{
-    if(!localStorage.getItem("logged"))
-    {
-        alert("You must login to Access this page")
-        navigate("/login")
-    }
-  },[])
- 
   return (
     <main className="flex">
       <Navbar />
       <section className="w-screen p-3 md:pe-5 mx-auto md:mx-0">
-        <h2 className="text-first-color text-3xl ms-3 mb-5 text-center md:text-start light:text-gray-700">
+        <h2 className="text-first-color text-3xl md:ms-3 mb-5 text-center md:text-start light:text-gray-700">
           Favorites
         </h2>
         {!favorites.length && (
-          <p className="ms-3 text-second-color light:text-gray-700">
+          <p className="text-center md:ms-3 md:text-start text-second-color light:text-gray-700">
             Favorites List is Empty
           </p>
         )}

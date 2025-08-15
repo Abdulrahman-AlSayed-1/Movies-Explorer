@@ -18,9 +18,9 @@ export default function Trending() {
     <main className="flex">
       <Navbar />
       <section className="w-screen p-3 md:pe-5 mx-auto md:mx-0">
-        <h2 className="text-first-color text-3xl ms-3 mb-5 text-center md:text-start light:text-gray-700">
+        <h2 className="text-first-color text-3xl md:ms-3 mb-5 text-center md:text-start light:text-gray-700">
           Trending{" "}
-          <small className="text-xs text-second-color  light:text-gray-600">
+          <small className="text-xs text-second-color light:text-gray-600">
             This Week
           </small>
         </h2>

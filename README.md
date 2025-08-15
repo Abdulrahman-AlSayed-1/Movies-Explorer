@@ -1,8 +1,8 @@
 
 # MovieSpace
-##### Movies Explorer – A website where users can discover movies, view overviews, ratings, cost, and release dates across various titles, and add their favorites.
+ Movies Explorer – A website where users can discover movies, view overviews, ratings, cost, and release dates across various titles, and add their favorites.
 
-Tools and Libraries used in this project:
+##### Tools and Libraries used in this project:
 
 1. React.js  
 2. Tailwind CSS  

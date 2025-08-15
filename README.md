@@ -12,5 +12,8 @@ Tools and Libraries used in this project:
 6. embla-carousel-react
 7. Formik
 8. react-fontawesome
-   
+
+### Acknowledgments
+Movie information in this application is powered by [TMDb API](https://www.themoviedb.org/documentation/api). All movie data, images, and ratings are © TMDb.
+
 

@@ -3,7 +3,7 @@ function Home() {
   
   return (
     <>
-      <main className="flex flex-wrap justify-center">
+      <main className="w-screen flex flex-wrap justify-center">
         <Navbar/>
         <section className="w-full px-2 md:w-3/4 lg:w-5/6 md:pe-5 md:ps-0">
             <SlideShow/>

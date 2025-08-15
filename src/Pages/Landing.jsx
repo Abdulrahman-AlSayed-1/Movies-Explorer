@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export default function LandingPage() {
   return (
-    <div className="relative h-[100dvh] w-screen landing overflow-y-hidden">
+    <div className="relative h-[100dvh] w-screen landing overflow-hidden">
       <div className="h-full w-full flex items-end md:items-center [background:linear-gradient(to_top,rgba(0,0,0,0.7)_40%,transparent)] md:[background:linear-gradient(to_right,black_30%,transparent)]">
           <div className="p-5 md:p-10 ">
             <p className="text-lg md:text-xl translate-text secondary-main-text text-gray-600">

@@ -45,8 +45,8 @@ function App() {
             <Route path="/register" element={<Register />} />
             <Route path="/login" element={<Login />} />
             <Route path="/" element={<Landing />} />
+            <Route path="*" element={<PageNotFound />} />
           </Route>
-          <Route path="*" element={<PageNotFound />} />
         </Routes>
       </lightModeContext.Provider>
     </BrowserRouter>

@@ -4,10 +4,8 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
-import { Footer } from "../Components";
 export default function PageNotFound() {
   return (
-    <div className="flex flex-col w-screen h-dvh">
       <div className="grow flex justify-center items-center">
         <div className="flex flex-col justify-center items-center gap-y-3">
           <div className="text-3xl">
@@ -25,7 +23,5 @@ export default function PageNotFound() {
           </Link>
         </div>
       </div>
-      <Footer />
-    </div>
   );
 }

@@ -1,0 +1,86 @@
+@import "tailwindcss";
+
+@theme {
+  --text-xxs: 0.65rem;
+  --line-height: 0.5rem;
+  --color-first-color: rgb(249, 248, 255);
+  --color-second-color: rgb(149, 156, 163);
+  --color-background-color: #0e1518;
+}
+
+.light {
+  --color-background-color: #eeeeee;
+}
+
+@custom-variant light {
+  &:where([class="light"] *) {
+    @slot;
+  }
+}
+
+body {
+  background-color: var(--color-background-color);
+  font-family: "Poppins", Arial, sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings: 100;
+  overflow-x: hidden;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.translate-text {
+  animation: translateTop 1s ease-out backwards;
+}
+@keyframes translateTop {
+  from {
+    transform: translateY(150%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes sharpening {
+  from {
+    backdrop-filter: blur(10px);
+  }
+  to {
+    backdrop-filter: blur(0);
+  }
+}
+.primary-main-text {
+  animation-delay: 100ms;
+}
+.secondary-main-text {
+  animation-delay: 1200ms;
+}
+.first-link {
+  animation-delay: 2300ms;
+}
+.second-link {
+  animation-delay: 3400ms;
+}
+.landing {
+  background: url("../assets/Landing_Background.jpg");
+  background-size: cover;
+  background-position-x: 200px;
+  background-repeat: no-repeat;
+}
+.landing > div {
+  animation: sharpening 3s ease 1 backwards;
+}
+@media (width <= 900px) {
+  .landing {
+    background-position-x: center;
+  }
+}
+

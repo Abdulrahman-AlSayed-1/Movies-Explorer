@@ -26,9 +26,9 @@ function Topbar() {
           <img
             src={logo}
             alt="MovieSpace"
-            className="w-1/3 inline light:invert"
+            className="w-10 md:w-14 inline light:invert"
           />
-          <span className="text-white light:text-gray-600 font-semibold text-[clamp(0.7rem,1vw,1rem)]">
+          <span className="text-white light:text-gray-600 font-semibold text-[clamp(0.7rem,1vw,1rem)] ms-3">
             MovieSpace
           </span>
         </Link>

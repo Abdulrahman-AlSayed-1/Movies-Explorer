@@ -1,4 +1,4 @@
-import logo from "../assets/logoNoBg.png";
+import logo from "../assets/LogoNoBg.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faMagnifyingGlass,
